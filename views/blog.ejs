@@ -4,11 +4,6 @@
     <title>Blogs</title>
 </head>
 <body>
-    <h1>List of Blogs</h1>
-    <% blogs.forEach(blog => { %>
-        <div>
-            <a href="/blog/<%= blog._id %>"><%= blog.content %></a>
-        </div>
-    <% }); %>
+    <h1><%= blog.content %></h1>
 </body>
 </html>
